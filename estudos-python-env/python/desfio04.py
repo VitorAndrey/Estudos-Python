@@ -1,0 +1,10 @@
+x = input('Digite algo: ')
+
+print(type(x))
+print('Digitou algo numerico? {}'.format(x.isnumeric()))
+print('Digitou algo alfabetico? {}'.format(x.isalpha()))
+print('Digitou algo numerico ou alfabetico? {}'.format(x.isalnum()))
+print('Digitou algo somente caixa alta? {}'.format(x.isupper()))
+print('Digitou algo somente caixa baixa? {}'.format(x.islower()))
+print('Digitou somente espaco {}'.format(x.isspace()))
+print('Digitou algo imprimivel? {}'.format(x.isprintable()))
